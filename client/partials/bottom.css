@@ -1,0 +1,65 @@
+.wrapper-bottom-buttons {
+  width: 90vw;
+  margin-top: 10px; }
+
+.bottom-text {
+  font-size: 3.5vw;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 100%;
+  color: #121111;
+  width: 20vw; }
+
+.bottom-btns {
+  display: inline-block;
+  width: 400px; }
+
+.btn-bottom {
+  width: 100px;
+  margin: 10px 10px 10px 10px; }
+
+.wrapper-2, .wrapper-3 {
+  display: block; }
+
+.btn-colors {
+  color: #FFF3E6;
+  background-color: #F7982E;
+  border-color: #FFAF55; }
+
+.btn-colors:hover,
+.btn-colors:focus,
+.btn-colors:active,
+.btn-colors.active,
+.open .dropdown-toggle.btn-colors {
+  color: #FFF3E6 !important;
+  background-color: #D6760A !important;
+  border-color: #FFAF55 !important; }
+
+.btn-colors:active,
+.btn-colors.active,
+.open .dropdown-toggle.btn-colors {
+  background-image: none; }
+
+.btn-colors.disabled,
+.btn-colors[disabled],
+fieldset[disabled] .btn-colors,
+.btn-colors.disabled:hover,
+.btn-colors[disabled]:hover,
+fieldset[disabled] .btn-colors:hover,
+.btn-colors.disabled:focus,
+.btn-colors[disabled]:focus,
+fieldset[disabled] .btn-colors:focus,
+.btn-colors.disabled:active,
+.btn-colors[disabled]:active,
+fieldset[disabled] .btn-colors:active,
+.btn-colors.disabled.active,
+.btn-colors[disabled].active,
+fieldset[disabled] .btn-colors.active {
+  background-color: #F7982E;
+  border-color: #FFAF55; }
+
+.btn-colors .badge {
+  color: #F7982E;
+  background-color: #FFF3E6; }
+
+/*# sourceMappingURL=bottom.css.map */
