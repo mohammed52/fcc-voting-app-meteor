@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TestArea from './TestArea'
+import NavBar from './NavBar'
+import RouterNodes from './RouterNodes'
 
 var ReactBootstrap = require('react-bootstrap');
 var Button = ReactBootstrap.Button;
@@ -11,12 +13,10 @@ class App extends Component {
     
   render() {
     return (
-      <div>
-      	<h1>HELLO WORLD-22</h1>
-      	<h1>HELLO WORLD-23</h1>
-      	 <Button bsStyle="primary">Primary</Button>
-      	 <TestArea />
-      </div>
+    	<div>
+        <NavBar />
+        <RouterNodes />
+        </div>
     );
   }
 }

@@ -5,13 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 var ReactBootstrap = require('react-bootstrap');
 var Button = ReactBootstrap.Button;
+
 // App component - represents the whole app
 class TestArea extends Component {
     
   render() {
     return (
       <div>
-      	Is it Ok-8 ?
+      	Is it Ok-9 ?
       </div>
     );
   }
