@@ -11,7 +11,7 @@ class TestArea extends Component {
   render() {
     return (
       <div>
-      	Is it Ok-5 ?
+      	Is it Ok-8 ?
       </div>
     );
   }
