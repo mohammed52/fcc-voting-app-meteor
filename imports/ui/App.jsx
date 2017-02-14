@@ -6,6 +6,7 @@ import TestArea from './TestArea'
 import NavBar from './NavBar'
 import RouterNodes from './RouterNodes'
 import WrapperWithNavBar from './WrapperWithNavBar'
+import Footer from './Footer'
 
 import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router'
 
@@ -17,16 +18,10 @@ class App extends Component {
   render() {
     return (
       <div>
-      <WrapperWithNavBar >
-        <div>
-          Hello World
-        </div>
-      </WrapperWithNavBar>
-      <br />
-      <br />
-      <br />
-      <br />
+      <WrapperWithNavBar />
+      {this.props.children}
       <div>Hello World</div>
+      <Footer />
         </div>
     );
   }

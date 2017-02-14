@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { Meteor } from 'meteor/meteor';
 import classnames from 'classnames';
-import NavBar from './NavBar'
 
 var ReactBootstrap = require('react-bootstrap');
 var Navbar = ReactBootstrap.Navbar;
@@ -13,7 +12,7 @@ var MenuItem = ReactBootstrap.NavItem;
 // var Nav = ReactBootstrap.Nav;
 
 // Task component - represents a single todo item
-export default class WrapperWithNavBar extends Component {
+export default class VoteYouCan extends Component {
 
   render() {
     // Give tasks a different className when they are checked off,
@@ -24,31 +23,12 @@ export default class WrapperWithNavBar extends Component {
     });
 
     return (
-          
-          <Navbar inverse collapseOnSelect>
-    <Navbar.Header>
-      <Navbar.Brand>
-        <a href="/voteyoucan">VoteYouCan</a>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Navbar.Collapse>
-      <Nav>
-        <NavItem eventKey={1} href="/home">Home</NavItem>
-      </Nav>
-      <Nav pullRight>
-        <NavItem eventKey={1} href="#">Sign Up</NavItem>
-        <NavItem eventKey={2} href="#">Login</NavItem>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-
+          <div>VoteYouCan Page</div>
     );
-
   }
 }
  
-WrapperWithNavBar.propTypes = {
+VoteYouCan.propTypes = {
   // This component gets the task to display through a React prop.
   // We can use propTypes to indicate it is required
 
