@@ -7,15 +7,15 @@ var ReactBootstrap = require('react-bootstrap');
 var Button = ReactBootstrap.Button;
 
 // App component - represents the whole app
-class TestArea extends Component {
+class Signup extends Component {
     
   render() {
     return (
       <div>
-      	Is it Ok-9 ?
+      	Signup Page
       </div>
     );
   }
 }
  
-export default TestArea
+export default Signup

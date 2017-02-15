@@ -5,7 +5,8 @@ import { render } from 'react-dom';
 import App from '../imports/ui/App';
 import VoteYouCan from '../imports/ui/VoteYouCan'
 import Home from '../imports/ui/Home'
-import TestArea from '../imports/ui/TestArea'
+import Signup from '../imports/ui/Signup'
+import Login from '../imports/ui/Login'
 
 import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router'
 
@@ -27,7 +28,8 @@ Meteor.startup(() => {
       <Route component={SearchLayout}>
         <Route path="home" component={Home} />
         <Route path="voteyoucan" component={VoteYouCan} />
-        <Route path="testarea" component={TestArea} />
+        <Route path="login" component={Login} />
+        <Route path="signup" component={Signup} />
       </Route>    
     </Route>
   </Router>
