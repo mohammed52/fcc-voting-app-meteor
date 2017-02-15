@@ -2,9 +2,10 @@ import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { render } from 'react-dom';
 
-import App from '../imports/ui/App.jsx';
-import VoteYouCan from '../imports/ui/VoteYouCan.jsx'
-import Home from '../imports/ui/Home.jsx'
+import App from '../imports/ui/App';
+import VoteYouCan from '../imports/ui/VoteYouCan'
+import Home from '../imports/ui/Home'
+import TestArea from '../imports/ui/TestArea'
 
 import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router'
 
@@ -26,6 +27,7 @@ Meteor.startup(() => {
       <Route component={SearchLayout}>
         <Route path="home" component={Home} />
         <Route path="voteyoucan" component={VoteYouCan} />
+        <Route path="testarea" component={TestArea} />
       </Route>    
     </Route>
   </Router>

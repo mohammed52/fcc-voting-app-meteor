@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { Meteor } from 'meteor/meteor';
 import classnames from 'classnames';
 import NavBar from './NavBar'
+import { LinkContainer } from 'react-router-bootstrap';
 
 var ReactBootstrap = require('react-bootstrap');
 var Navbar = ReactBootstrap.Navbar;
@@ -10,6 +11,7 @@ var Nav = ReactBootstrap.Nav;
 
 var NavDropdown = ReactBootstrap.NavDropdown;
 var MenuItem = ReactBootstrap.NavItem;
+var Button = ReactBootstrap.Button;
 // var Nav = ReactBootstrap.Nav;
 
 // Task component - represents a single todo item
@@ -28,17 +30,29 @@ export default class WrapperWithNavBar extends Component {
           <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="/voteyoucan">VoteYouCan</a>
+
+        <LinkContainer to="/voteyoucan">
+    <Button>VoteYouCan</Button>
+  </LinkContainer>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <NavItem eventKey={1} href="/home">Home</NavItem>
+        <LinkContainer to="/home">
+    <NavItem eventKey={1}>Home</NavItem>
+  </LinkContainer>
+  <LinkContainer to="/voteyoucan">
+    <NavItem eventKey={1}>VoteYouCan</NavItem>
+  </LinkContainer>
+  <LinkContainer to="/testarea">
+    <NavItem eventKey={1}>Test Area</NavItem>
+  </LinkContainer>
+
       </Nav>
       <Nav pullRight>
-        <NavItem eventKey={1} href="#">Sign Up</NavItem>
-        <NavItem eventKey={2} href="#">Login</NavItem>
+        <NavItem eventKey={1} href="/home"><a href="/home">VoteYouCan</a></NavItem>
+        <NavItem eventKey={2} href="/home">Login</NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
