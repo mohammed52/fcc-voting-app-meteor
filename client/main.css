@@ -18,10 +18,13 @@
 
 body {
   font-family: sans-serif;
-  background-color: lightgrey;}
+  background-color: lightgrey; }
 
 .no-padding {
-  padding: 0; }
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
 
 .wrapper-bottom-buttons {
   width: 90vw;
@@ -86,5 +89,12 @@ fieldset[disabled] .btn-colors.active {
 .btn-colors .badge {
   color: #F7982E;
   background-color: #FFF3E6; }
+
+.wrapper-home {
+  background-color: lightblue; }
+
+.home-title {
+  margin-top: 2%;
+  font-size: 4vw; }
 
 /*# sourceMappingURL=main.css.map */

@@ -27,7 +27,7 @@ export default class WrapperWithNavBar extends Component {
 
     return (
           
-          <Navbar inverse collapseOnSelect>
+          <Navbar inverse collapseOnSelect className="no-margin">
     <Navbar.Header>
       
       <Navbar.Brand>

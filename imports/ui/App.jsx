@@ -1,8 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import RouterNodes from './RouterNodes'
+
 import WrapperWithNavBar from './WrapperWithNavBar'
 import Footer from './Footer'
 
@@ -15,7 +13,7 @@ class App extends Component {
     
   render() {
     return (
-      <div>
+      <div className="testbg-1">
       <WrapperWithNavBar />
       {this.props.children}
       <br />
