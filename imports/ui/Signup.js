@@ -12,7 +12,17 @@ class Signup extends Component {
   render() {
     return (
       <div>
-      	Signup Page-5
+      	<div className="wrapper-home testbg-1 text-center no-padding">
+
+          <div className="container-fluid home-title testbg-1">VoteYouCan</div>
+          <div className="container-fluid home-description testbg-1">Create custom polls with live results</div>
+			<br />				
+			
+      <div>
+        
+
+      </div>
+          </div>
       </div>
     );
   }

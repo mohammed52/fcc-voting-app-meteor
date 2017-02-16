@@ -8,4 +8,35 @@
 .home-description {
   font-size: 1.5vw; }
 
+.wrapper-home-lower-part {
+  background-color: white; }
+
+.home-lower-cols {
+  width: 33%;
+  min-width: 150px;
+  background-color: white; }
+
+.home-icons, .icon-bolt, .icon-globe, .icon-facebook {
+  font-size: 7vw; }
+
+.icon-bolt {
+  color: #FCE675; }
+
+.icon-globe {
+  color: #55AA5D; }
+
+.icon-facebook {
+  color: #3C90BC; }
+
+.icon-footer {
+  font-size: 2vw;
+  color: black;
+  font-weight: bold; }
+
+.icon-text {
+  width: 90%;
+  font-size: 12px;
+  color: black;
+  font-weight: bold; }
+
 /*# sourceMappingURL=_home.css.map */
