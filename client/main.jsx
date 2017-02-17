@@ -1,16 +1,21 @@
-import React from 'react';
-import { Meteor } from 'meteor/meteor';
-import { render } from 'react-dom';
+import React from 'react'
+import { Meteor } from 'meteor/meteor'
+import { render } from 'react-dom'
+import '../imports/api/polls.js'
 
-import App from '../imports/ui/App';
+import '../imports/startup/accounts-config.js'
+import App from '../imports/ui/App.jsx'
 import VoteYouCan from '../imports/ui/VoteYouCan'
 import Home from '../imports/ui/Home'
 import Signup from '../imports/ui/Signup'
 import Login from '../imports/ui/Login'
 
 import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router'
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../imports/startup/Test1.js'
+import '../imports/startup/accounts-config.js'
+
 // import './font-awesome-4.7.0/css/font-awesome.min.css'
 
 var SearchLayout = React.createClass({

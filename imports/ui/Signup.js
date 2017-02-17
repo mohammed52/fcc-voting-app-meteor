@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
 var ReactBootstrap = require('react-bootstrap');
 var Button = ReactBootstrap.Button;
 
@@ -22,6 +24,9 @@ class Signup extends Component {
         
 
       </div>
+          </div>
+          <div>
+            
           </div>
       </div>
     );
