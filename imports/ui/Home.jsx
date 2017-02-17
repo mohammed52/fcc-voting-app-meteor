@@ -16,7 +16,7 @@ export default class Home extends Component {
           <div className="container-fluid home-description testbg-1">Create custom polls with live results</div>
 			<br />
       <LinkContainer to="/signup">
-    <Button bsStyle="success">Sign Up</Button>
+    <Button bsStyle="success">Sign Up-4</Button>
   </LinkContainer>
 				
 			<br />
