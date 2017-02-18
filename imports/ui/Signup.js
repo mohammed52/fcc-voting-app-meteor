@@ -16,7 +16,7 @@ class Signup extends Component {
       <div>
       	<div className="wrapper-home testbg-1 text-center no-padding">
 
-          <div className="container-fluid home-title testbg-1">VoteYouCan</div>
+          <div className="container-fluid home-title testbg-1">VoteYouCan-1</div>
           <div className="container-fluid home-description testbg-1">Create custom polls with live results</div>
 			<br />				
 			
