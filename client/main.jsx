@@ -1,45 +1,11 @@
-import React from 'react'
-import { Meteor } from 'meteor/meteor'
-import { render } from 'react-dom'
-import '../imports/api/polls.js'
+/* global document */
 
-import '../imports/startup/accounts-config.js'
-import App from '../imports/ui/App.jsx'
-import VoteYouCan from '../imports/ui/VoteYouCan'
-import Home from '../imports/ui/Home'
-import Signup from '../imports/ui/Signup'
-import Login from '../imports/ui/Login'
+import { Meteor } from 'meteor/meteor';
+import { render } from 'react-dom';
+import { renderRoutes } from '../imports/startup/client/routes.jsx';
 
-import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../imports/startup/Test1.js'
-import '../imports/startup/accounts-config.js'
-
-// import './font-awesome-4.7.0/css/font-awesome.min.css'
-
-var SearchLayout = React.createClass({
-  render: function() {
-    return (
-      <div>
-          {this.props.children}
-      </div>
-      )
-  }
-})
+// import '../imports/ui/helpers/ClientServerCommon.js';
 
 Meteor.startup(() => {
-  render((
-  <Router history={browserHistory}>
-    <Route path="/" component={App}>
-      <IndexRoute component={Home} />
-      <Route component={SearchLayout}>
-        <Route path="home" component={Home} />
-        <Route path="voteyoucan" component={VoteYouCan} />
-        <Route path="login" component={Login} />
-        <Route path="signup" component={Signup} />
-      </Route>    
-    </Route>
-  </Router>
-      ),document.getElementById('render-target'));
+  render(renderRoutes(), document.getElementById('render-target'));
 });
