@@ -15,16 +15,11 @@ var Button = ReactBootstrap.Button;
 class AppContainer extends Component {
     
   render() {
-    
     return (
       <div className="testbg-1">
-      <WrapperWithNavBar />
-      
-      {this.props.children}
-      <br />
+      <WrapperWithNavBar /> {this.props.children} <br />
       <AccountsUIWrapper />
-      <Footer />
-        </div>
+        <Footer /></div>
     );
   }
 }

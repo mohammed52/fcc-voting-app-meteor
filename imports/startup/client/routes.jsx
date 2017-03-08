@@ -23,13 +23,11 @@ export const renderRoutes = () => (
     <Router history={browserHistory}>
     <Route path="/" component={AppContainer}>
       <IndexRoute component={Home} />
-      <Route component={SearchLayout}>
         <Route path="home" component={Home} />
         <Route path="voteyoucan" component={VoteYouCan} />
         <Route path="login" component={Login} />
         <Route path="signup" component={Signup} />
       </Route>    
-    </Route>
   </Router>
 
   );
