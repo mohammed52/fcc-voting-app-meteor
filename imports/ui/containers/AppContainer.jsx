@@ -15,6 +15,7 @@ var Button = ReactBootstrap.Button;
 class AppContainer extends Component {
     
   render() {
+    
     return (
       <div className="testbg-1">
       <WrapperWithNavBar />
@@ -36,5 +37,5 @@ export default createContainer(() => {
   return {
     polls: Polls.find({}).fetch(),
   };
-}, AppContainer1);
+}, AppContainer);
 
