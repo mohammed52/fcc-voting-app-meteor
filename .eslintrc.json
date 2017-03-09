@@ -14,7 +14,8 @@
   "rules": {
     // Tons of rules you can use, for example...
     "quotes": [0, "double"],
-    "no-undef": 2
+    "no-undef": 2,
+    "no-unused-vars": 1
   },
   "parser": "babel-eslint"
 }

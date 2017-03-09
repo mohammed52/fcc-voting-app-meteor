@@ -1,10 +1,12 @@
 import { Meteor } from 'meteor/meteor';
+import { Polls } from '../../api/polls/polls.js';
 // import { Lists } from '../../api/lists/lists.js';
 // import { Todos } from '../../api/todos/todos.js';
 
 // if the database is empty on server start, 
 // create some sample data.
 Meteor.startup(() => {
+  
   // Todos.remove({});
   // Lists.remove({});
 

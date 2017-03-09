@@ -1,0 +1,129 @@
+must github check in .meteor folder, it contains critical meteor info
+--
+need to delete "dev_bundle" in .meteor\local\ , to solve errors
+--
+Meteor server restarted: App has loaded on browser
+--
+Promises - object is used for asynchronous computations
+has 03 states, Pending, Fulfiled, Rejected, 
+--
+meteor npm install react-bootstrap
+--
+Meteor vs Express - Meteor React advanced tuts not available 
+--
+
+Official integration of meteor bootstrap:
+meteor add twbs:bootstrap
+--
+DocuSign - ndustry leader in digital signing 
+--
+meteor --no-release-check appears to work for faster refresh
+--
+meteor build time is same as express.js build time
+--
+Even with all the problems of Meteor.js, I want to stick with it for Optimistic UI,
+if I know MongoDB CRUD, React-Router, React-Redux, launching app on Herouku , swithcing to Express should be simple
+--
+Open folder in ST3
+http://leftofnull.com/2015/01/04/enhancing-sublime-text-context-menus-on-windows/
+--
+After Reinstall Node and Meteor:
+Meteor, fresh build 23, Reload 8 sec, 
+--
+git reset --hard
+--
+Meteor Errors while building project? meteor reset
+--
+React Router: http://codepen.io/bradwestfall/pen/reaWYL
+--
+Problem: How to use react-rotuer with bootstrap-navbar ? Wasted 01 day
+Use Reac Router Bootstrap
+--
+Meteor Console: Client Modified - refreshing, it still works
+--
+React-Router , add browser history object as a property value
+--
+react-router-bootstrap USAGE:
+
+<LinkContainer to="/home">
+    <NavItem eventKey={1}>Home</NavItem>
+  </LinkContainer>
+
+NavBar Brand:
+<Navbar.Brand>
+        <LinkContainer to="/" style={{ cursor: 'pointer' }}>
+        <span style={{ width: 225 }}>React-Bootstrap</span>
+        </LinkContainer>
+</Navbar.Brand>
+--
+Use atmosphere to add Meteor plugins
+--
+Can not Integrate Font Awesome with Meteor React ? wasted 01 day
+Use atmosphere plugin and install from there, no need to manually download , copy paste folders - 
+--
+Bootstrap Grid is different from Flexbox
+--
+Flexbox is for alignment, bootstrap is for stacking and arranging as screen size changes
+--
+meteor run --port 3030 , Change meteor port numbers to run multiple apps simultaneously
+--
+Meteor - Strange, anything in client folder gets executed
+--
+Q: Get Meteor useraccounts not working? 01 days wasted, use Mongodb first
+--
+meteor accounts creates a new accounts collection
+--
+Custum Meteor Accounts with react
+http://www.mrscottmcallister.com/custom-authentication-in-meteor/
+--
+Strange problems while importing files from deep rooted directories?
+always use ../../../../
+--
+React-Router: To redirect component, browserhistory.push(..)
+--
+Problem , all Meteor tuts are using Blaze UI
+--
+Meteor useraccounts - Use any router or UI framework
+--
+Due to complexity of VoteYouCan , have to thoroughly understand Meteor React Todo full
+--
+RESUME AFTER 2 weeks TUTS
+--
+ST3 folder refresh, use key bindings
+--
+Add accounts func with changing Menus
+--
+cmd: client modified -- refreshing
+If you only modify te client, cmd only refreshes
+--
+Meteor: show collections, show dbs ...
+--
+imports -> UI -> layouts, components, containers, pages
+--
+pages: AuthPage, AuthPagejoin, ListPage, NotFoundPage ...
+layouts: App.jsx
+containers: AppContainer, ListPageContainer
+components: all components
+--
+routes: AppContainer, ListPageContainer,  AuthPageSignIn, AuthPageJoin, NotFoundPage
+--
+App is the master layout wrapped in a container
+--
+Clone and return a new React element
+--
+App Component: set surrent user, connected status, menuOpen, subscribe to public lists, get all public and user private lists
+App Layout: show connection issue, logout, 
+--
+UI->Pages static pages, other router links/pages ?
+UI->Layouts wrapper for other containers, set global login/logout, user status
+UI->Containers wrapper for components, set mongo data to props
+UI->components , basic view components with only props
+--
+will go for Galaxy Hosting, $4-5 per month, save a lot of time on devops
+--
+or -> don't give 4-5 dollar a month and host on Amazon EC2 your self
+--
+Use sublimelinter, eslint EES6 for linting
+--
+Autocompletion: https://www.youtube.com/watch?v=OxzdNZCxPjk
+--
