@@ -6,9 +6,13 @@ import { Polls } from '../../api/polls/polls.js';
 // if the database is empty on server start, 
 // create some sample data.
 Meteor.startup(() => {
-  
-  // Todos.remove({});
+  Meteor.call("logStringToConsole", "test-2");
+  Polls.remove({});
   // Lists.remove({});
+  Polls.insert({
+        name: "hello",
+        details: "hello2",
+      });
 
   // if (Lists.find().count() === 0) {
   //   const data = [

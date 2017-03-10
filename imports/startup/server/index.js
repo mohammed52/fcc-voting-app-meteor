@@ -1,3 +1,5 @@
+import '../../ui/helpers/ClientServerCommon.js';
+
 // This defines a starting set of data to be loaded if the app is loaded with an empty db.
 import './fixtures.js';
 
@@ -11,6 +13,6 @@ import './fixtures.js';
 // as an API to the client.
 // import './register-api.js';
 
-import '../../ui/helpers/ClientServerCommon.js';
+
 
 process.env.NODE_OPTIONS = '--debug';

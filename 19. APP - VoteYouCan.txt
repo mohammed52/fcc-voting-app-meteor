@@ -127,3 +127,6 @@ Use sublimelinter, eslint EES6 for linting
 --
 Autocompletion: https://www.youtube.com/watch?v=OxzdNZCxPjk
 --
+Problem: Collection is not created at startup? 01 day
+Ans: Until and unless you addd a document, collection is not created
+--
